@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
+<<<<<<< HEAD
     <EditText
         android:id="@+id/textName"
         android:layout_width="wrap_content"
@@ -90,4 +91,55 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.177" />
 
+=======
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="153dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="171dp"
+                    android:layout_height="28dp"
+                    android:background="#FFFFFF"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Hello id" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        app:srcCompat="?android:attr/actionModeWebSearchDrawable"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="84dp" />
+
+                    <EditText
+                        android:id="@+id/editTextTextPersonName3"
+                        android:layout_width="312dp"
+                        android:layout_height="47dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Cautare Produs"
+                        tools:layout_editor_absoluteX="83dp"
+                        tools:layout_editor_absoluteY="84dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+>>>>>>> bd872074858314cca56de27e3bcec007ef154231
 </androidx.constraintlayout.widget.ConstraintLayout>
